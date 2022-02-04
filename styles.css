@@ -11,11 +11,24 @@ section.left {
 
 section.right {
   background-color: black;
-  color: #f8f8f8;
+  color: white;
   position: absolute;
   left: 40%;
   width: 60vw;
   height: 100vh;
+}
+
+div.container {
+  margin-top: 20vh;
+  margin-left: 3.5rem;
+  margin-right: 3rem;
+}
+div.container > h2:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+input {
+  display: block;
 }
 
 div.logo {
@@ -30,7 +43,7 @@ div.logo > h1 {
   display: inline;
   color: white;
   position: relative;
-  bottom: 3vh;
+  bottom: 4vh;
   font-size: 5rem;
 }
 
